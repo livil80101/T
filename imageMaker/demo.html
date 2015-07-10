@@ -1,0 +1,25 @@
+
+<html>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/json2Image.js"></script>
+    <script>
+        var data = '{"width":800,"height":600,"picList":[{"cv_zindex":"1","cv_DType":"W","cv_con":"AAAAA","v_x":"97","v_y":"196","v_w":260,"v_h":83,"font_size":72},{"cv_zindex":"2","cv_DType":"P","cv_con":"./image/BG01.jpeg","v_x":"192","v_y":"223","v_w":1024,"v_h":768,"font_size":72},{"cv_zindex":"3","cv_DType":"FB_P","cv_con":"100002081915136","v_x":"237","v_y":"268","v_w":150,"v_h":150,"font_size":72},{"cv_zindex":"4","cv_DType":"W","cv_con":"AAAAAAAAA","v_x":"327","v_y":"367","v_w":468,"v_h":83,"font_size":72}],"output":"output"}';
+        $(document).ready(function (){
+            Json2Image(data);
+        });
+    </script>
+    <style>
+        body{
+            
+        }
+        #output img{
+            position: absolute;
+            
+        }
+    </style>
+    <body>
+        <div id="output">
+            
+        </div>
+    </body>
+</html>

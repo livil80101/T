@@ -1,0 +1,73 @@
+.imageMake{
+
+    position: absolute;
+}
+#controller{
+    position: absolute;
+    top: 600px;
+    width:900px;
+}
+#show{
+    z-index: 1;
+    background-color: white;
+    box-shadow:1px 1px 13px 2px; 
+    height: 600px;
+    width: 800px;
+    overflow: hidden;
+    position: absolute;
+    /*margin-bottom: 10px;*/
+}
+.view{
+    /*    background-image:  url(../../image/BG01.jpeg);*/
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 9px;
+    left: 11px;
+    height: 600px;
+    width: 800px;
+    background-color: transparent;
+
+    white-space: nowrap;
+
+}
+.view_fn{
+    font-size:99px;;
+    height: auto; 
+    width:auto;
+    background-color: rgba(125,125,125,0.5);
+}
+.view_fn:after{
+    content: attr(d-display);
+}
+.view_w{
+    font-size:72px;;
+    height: auto; 
+    width:auto;
+    background-color: rgba(125,125,125,0.5);
+}
+.view_w:after{
+    content: attr(content);
+}
+.view_fp{
+    height: 300px;
+    width: 300px;
+}
+.view_fp:after{
+
+}
+#controller table{
+    border-style: none;
+}
+#controller table thead{
+    background-color: aqua;
+}
+#output{
+    position: absolute;
+    width: 800px;
+    height: 600px;
+}
+#output img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
