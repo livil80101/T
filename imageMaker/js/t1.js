@@ -519,6 +519,8 @@ function reSetTable() {
         var _index = $('.c_view').index(this);
 
         $(this).find('.zIndex').html(_index + 1);
+        
+        $(this).attr('id','cv_'+_index + 1)
     });
 }
 
