@@ -31,7 +31,7 @@
 
                 });
 
-                $(':file').change(function () {
+                $('#inp_f2:file').change(function () {
 //                    console.log('AAAAAA');
                     var f = document.getElementById('inp_f2');
 
